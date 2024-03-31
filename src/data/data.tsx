@@ -15,11 +15,8 @@ import porfolioImage3 from '../images/chatBot.jpg';
 import porfolioImage10 from '../images/hand.jpg';
 import heroImage from '../images/header-background.webp';
 import porfolioImage2 from '../images/LLM.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage7 from '../images/orange2D.jpg';
+import porfolioImage8 from '../images/osci.jpg';
 import profilepic from '../images/profilepic.jpg';
 import porfolioImage1 from '../images/robot.jpg';
 import porfolioImage6 from '../images/robotTPE.jpg';
@@ -197,69 +194,60 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Learning Recovery Maneuvers for Robot ANYmal',
-    description: 'train a reinforcement learning model to learn recovery maneuvers',
-    url: 'https://reactresume.com',
+    description: 'Train a reinforcement learning model to learn recovery maneuvers and reduce the damages when falling.',
+    url: './projectRL1',
     image: porfolioImage1,
+    date: '> 02/2024 - now (07/2024)',
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Sorting arm Robot',
+    description: 'Programming, 3D design and built a sorting arm robot with Arduino that sort 3 different size of cube.',
+    url: './projectTPE',
     image: porfolioImage6,
+    date: '> 2019/2020',
   },
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Robotic hand project',
+    description: 'Developing a robotic hand capable of manipulation within a 250CHF budget, leveraging skills in design, fabrication, learning, control, and testing.',
+    url: './projectHand',
     image: porfolioImage10,
+    date: '> 09/2023 - 01/2024',
   },
   {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
+    title: 'Spatial reasoning from LLM for global navigation ',
+    description: 'To improve robot’s navigation and to make it more versatile in various different environment, we are testing the spatial reasoning capabilities of large language models.',
+    url: './projectLLM',
+    image: porfolioImage2,
+    date: '> 02/2024 - now (07/2024)',
+  },
+  {
+    title: 'Start Hack, saint gallen',
+    description: 'Developping a realistic human voice chatbot for the canton of St. Gallen, utilizing the data provided by the canton and from their website. We aimed to address the challenge they faced with hundreds of daily calls,',
+    url: './projectBob',
+    image: porfolioImage3,
+    date: '> 20,21,22/03/2024',
+  },
+  {
+    title: 'Oscillator design',
+    description: 'Designing a 2-degree freedom oscillator for watches, resistant to linear and angular accelerations, using CATIA software',
+    url: './projectHorl',
+    image: porfolioImage8,
+    date: '> 01/2022 - 06/2022',
+  },
+  {
+    title: 'Mechanical design project',
+    description: 'Brainstorming and designing with CATIA a orange press like commercial juicers.',
+    url: './projectOrange',
+    image: porfolioImage7,
+    date: '> 01/2022 - 06/2022',
+  },
+
+  {
+    title: 'Computer vision project and deep learning project',
+    description: 'Crafting a CNN model for image recognition, segmentation, and object tracking, and various deep learning models for music genre classification, graph neural networks, or natural language processing.',
+    url: './projectCV',
+    image: porfolioImage9,
+    date: '> 09/2023 - 06/2024',
   },
 ];
 

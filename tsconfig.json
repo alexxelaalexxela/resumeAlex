@@ -23,7 +23,8 @@
     "incremental": true
   },
   "include": [
-    "./src/**/*"
+    "./src/**/*",
+    "public/test.tsx"
   ],
   "exclude": [
     "node_modules"
