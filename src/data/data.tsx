@@ -259,13 +259,13 @@ export const education: TimelineItem[] = [
     date: '2023-2025, 2 years',
     location: 'Zurich, Switzerland',
     title: 'ETHZ, Master of Science in Robotics, Systems and Control',
-    content: <p>Description</p>,
+    content: <p></p>,
   },
   {
     date: '2022-2023, 1 year',
     location: 'Tokyo, Japan',
     title: 'TokyoTech, Exchange year',
-    content: <p>Describe</p>,
+    content: <p></p>,
   },
   {
     date: '2020-2023, 3 year',
