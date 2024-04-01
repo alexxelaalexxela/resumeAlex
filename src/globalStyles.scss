@@ -58,3 +58,14 @@ th {
   justify-content: space-around;
   /* Cela répartit l'espace uniformément autour de chaque élément. */
 }
+
+.no-break {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  /* Pour les navigateurs plus anciens */
+}
+
+.keep-together {
+  display: inline-block;
+  width: 100%;
+}

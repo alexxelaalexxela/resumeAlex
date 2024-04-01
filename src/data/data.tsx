@@ -66,7 +66,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Alexandre, a <strong className="text-stone-100"> Robotic/AI Engineer</strong>, currently doing my Master
+        I'm Alexandre, a <strong className="text-stone-100"> Robotic/AI Engineer</strong>, currently doing my Master
         at <strong className="text-stone-100">ETHZ Zurich</strong>, in robotic.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -109,23 +109,7 @@ export const aboutData: About = {
  * Skills section
  */
 export const skills: SkillGroup[] = [
-  {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'French',
-        level: 10,
-      },
-      {
-        name: 'English',
-        level: 9,
-      },
-      {
-        name: 'Spanish',
-        level: 2,
-      },
-    ],
-  },
+
   {
     name: 'Coding',
     skills: [
@@ -184,6 +168,23 @@ export const skills: SkillGroup[] = [
         level: 7,
       },
 
+    ],
+  },
+  {
+    name: 'Spoken languages',
+    skills: [
+      {
+        name: 'French',
+        level: 10,
+      },
+      {
+        name: 'English',
+        level: 9,
+      },
+      {
+        name: 'Spanish',
+        level: 2,
+      },
     ],
   },
 ];
@@ -258,19 +259,22 @@ export const education: TimelineItem[] = [
   {
     date: '2023-2025, 2 years',
     location: 'Zurich, Switzerland',
-    title: 'ETHZ, Master of Science in Robotics, Systems and Control',
+    title: 'ETHZ ',
+    after: 'Master of Science in Robotics, Systems and Control',
     content: <p></p>,
   },
   {
     date: '2022-2023, 1 year',
     location: 'Tokyo, Japan',
-    title: 'TokyoTech, Exchange year',
+    title: 'TokyoTech ',
+    after: 'Exchange year',
     content: <p></p>,
   },
   {
-    date: '2020-2023, 3 year',
+    date: '2020-2023, 3 years',
     location: 'Lausanne, Switzerland',
-    title: 'EPFL, Bachelor of microengineering',
+    title: 'EPFL ',
+    after: 'Bachelor of microengineering',
     content: <p>Grade : 5,23/6</p>,
   },
 ];
@@ -279,7 +283,8 @@ export const experience: TimelineItem[] = [
   {
     date: '05/2023 - 08/2023, 4 months',
     location: 'Lausanne, Switzerland',
-    title: 'Internship at the Space Domain, Swiss Army',
+    title: 'Swiss Army ',
+    after: 'Internship at the Space Domain',
     content: (
       <p>
         Throughout my internship under the guidance of Gabriel Laupre, I worked as a consultant for the company Solenix, focusing on projects within the Space Domain for the Swiss Army. My main role involved calculating satellite deltaV and consumed fuel using historical data. I applied various techniques, including signal processing and machine learning, utilizing both Python and Java for the computations and the development. (<a href="https://space-campus.ch/" target="_blank" rel="noopener noreferrer">https://space-campus.ch/</a>) (<a href="https://www.solenix.ch/" target="_blank" rel="noopener noreferrer">https://www.solenix.ch/</a>)
@@ -289,7 +294,8 @@ export const experience: TimelineItem[] = [
   {
     date: ' 07/2022 - 08/2022',
     location: 'Lausanne, Switzerland',
-    title: 'Internship of manufacturing',
+    title: 'ETML ',
+    after: 'Internship of manufacturing',
     content: (
       <p>
         During this manufacturing internship, I learned the entire process of drilling, milling, turning, brazing and sawing. These skills were learned by making many different object parts using different machines.
@@ -311,6 +317,11 @@ export const contact: ContactSection = {
   description: '',
   items: [
     {
+      type: ContactType.LinkedIn,
+      text: '@alexandre-clin-deffarges',
+      href: 'https://www.linkedin.com/in/alexandre-clin-deffarges-387748227',
+    },
+    {
       type: ContactType.Email,
       text: 'alexandre.clin@orange.fr',
       href: 'mailto:alexandre.clin@orange.fr',
@@ -324,11 +335,6 @@ export const contact: ContactSection = {
       type: ContactType.Location,
       text: 'Zurich, Switzerland',
       href: '',
-    },
-    {
-      type: ContactType.LinkedIn,
-      text: '@alexandre-clin-deffarges',
-      href: 'https://www.linkedin.com/in/alexandre-clin-deffarges-387748227',
     },
     {
       type: ContactType.Instagram,
