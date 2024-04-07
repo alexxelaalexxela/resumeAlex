@@ -220,14 +220,6 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage9,
     date: '> 09/2023 - 06/2024',
   },
-
-  {
-    title: 'Spatial reasoning from LLM for global navigation ',
-    description: 'To improve robot’s navigation and to make it more versatile in various different environment, we are testing the spatial reasoning capabilities of large language models.',
-    url: './projectLLM',
-    image: porfolioImage2,
-    date: '> 02/2024 - now (07/2024)',
-  },
   {
     title: 'Start Hack, saint gallen',
     description: 'Developping a realistic human voice chatbot for the canton of St. Gallen, utilizing the data provided by the canton and from their website. We aimed to address the challenge they faced with hundreds of daily calls,',
@@ -235,6 +227,14 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage3,
     date: '> 20,21,22/03/2024',
   },
+  {
+    title: 'Spatial reasoning from LLM for global navigation ',
+    description: 'To improve robot’s navigation and to make it more versatile in various different environment, we are testing the spatial reasoning capabilities of large language models.',
+    url: './projectLLM',
+    image: porfolioImage2,
+    date: '> 02/2024 - now (07/2024)',
+  },
+
 
   {
     title: 'Mechanical design project',

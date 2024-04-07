@@ -172,9 +172,11 @@ const NouvellePage = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div className=" w-full columns-2 md:columns-3 lg:columns-4">
 
 
+                                <span style={{ marginTop: '10px' }}>.</span>
 
                                 <div className="pb-6" >
                                     <div
