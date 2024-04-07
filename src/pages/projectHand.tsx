@@ -1,4 +1,7 @@
 // pages/NouvellePage.js
+import 'swiper/css'; // importe le style de base de Swiper
+import 'swiper/css/navigation'; // importe le style pour la navigation
+
 import {
     AcademicCapIcon,
     BuildingOffice2Icon,
@@ -7,6 +10,7 @@ import {
 } from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 import Section from '../components/Layout/Section';
@@ -16,11 +20,22 @@ import img2 from '../images/img2.jpg'
 import img3 from '../images/img3.jpg'
 import img4 from '../images/img4.jpg'
 
+
 const NouvellePage = () => {
     const { profileImageSrc } = aboutData;
     return (
         <div>
-
+            <header className="fixed top-0 z-50 w-full bg-neutral-900/50 p-4 backdrop-blur">
+                <nav className="flex justify-start">
+                    {/* Mettez à jour le chemin vers votre page Portfolio si nécessaire */}
+                    <Link
+                        href="/#portfolio"
+                        className="-m-1.5 p-1.5 rounded-md font-bold uppercase hover:transition-colors hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 sm:hover:text-orange-500 text-neutral-100"
+                    >
+                        Return
+                    </Link>
+                </nav>
+            </header>
             <Section className="bg-neutral-800" sectionId='about'>
                 <div className="flex flex-col items-center gap-y-6 rounded-xl p-6 text-center shadow-lg backdrop-blur-sm">
 
@@ -104,48 +119,105 @@ const NouvellePage = () => {
                         </div>
 
 
+
+
+
                         <div className="col-span-1 flex flex-col md:col-span-3">
                             <p>Videos and picture of the reiforcement learning, testing and evaluation of the hand</p>
                             <div><p> .</p></div>
+                            <div className=" w-full columns-2 md:columns-3 lg:columns-4">
+                                <div className="pb-6" >
+                                    <div
+                                        className={classNames(
+                                            'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
+                                        )}>
+                                        <video width="300" height="500" controls>
+                                            <source src='vid1.mp4' type="video/mp4" />
+                                            Votre navigateur ne supporte pas la balise vidéo.
+                                        </video>
+                                    </div>
+                                </div>
+                                <div className="pb-6" >
+                                    <div
+                                        className={classNames(
+                                            'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
+                                        )}>
+                                        <video width="300" height="500" controls>
+                                            <source src='vid2.mp4' type="video/mp4" />
+                                            Votre navigateur ne supporte pas la balise vidéo.
+                                        </video>
 
-                            <div className="images-container">
-                                <video width="300" height="500" controls>
-                                    <source src='vid1.mp4' type="video/mp4" />
-                                    Votre navigateur ne supporte pas la balise vidéo.
-                                </video>
-
-                                <video width="300" height="500" controls>
-                                    <source src='vid2.mp4' type="video/mp4" />
-                                    Votre navigateur ne supporte pas la balise vidéo.
-                                </video>
+                                    </div>
+                                </div>
+                                <div className="pb-6" >
+                                    <div
+                                        className={classNames(
+                                            'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
+                                        )}>
+                                        <video width="300" height="500" controls>
+                                            <source src='RL.mp4' type="video/mp4" />
+                                            Votre navigateur ne supporte pas la balise vidéo.
+                                        </video>
+                                    </div>
+                                </div>
+                                <div className="pb-6" >
+                                    <div
+                                        className={classNames(
+                                            'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
+                                        )}>
+                                        <video width="200" height="200" controls>
+                                            <source src='Teleoperation.mp4' type="video/mp4" />
+                                            Votre navigateur ne supporte pas la balise vidéo.
+                                        </video>
+                                    </div>
+                                </div>
                             </div>
-                            <div><p> .</p></div>
+                            <div className=" w-full columns-2 md:columns-3 lg:columns-4">
 
-                            <div className="images-container">
-                                <video width="300" height="500" controls>
-                                    <source src='RL.mp4' type="video/mp4" />
-                                    Votre navigateur ne supporte pas la balise vidéo.
-                                </video>
-                                <video width="200" height="200" controls>
-                                    <source src='Teleoperation.mp4' type="video/mp4" />
-                                    Votre navigateur ne supporte pas la balise vidéo.
-                                </video>
+
+
+                                <div className="pb-6" >
+                                    <div
+                                        className={classNames(
+                                            'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
+                                        )}>
+                                        <Image alt="test" width="200" height="200" src={img2} />
+                                    </div>
+                                </div>
+                                <div className="pb-6" >
+                                    <div
+                                        className={classNames(
+                                            'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
+                                        )}>
+                                        <Image alt="test" width="200" height="200" src={img3} />
+
+                                    </div>
+                                </div>
+                                <div className="pb-6" >
+                                    <div
+                                        className={classNames(
+                                            'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
+                                        )}>
+                                        <Image alt="test" width="200" height="200" src={img1} />
+
+                                    </div>
+                                </div>
+                                <div className="pb-6" >
+                                    <div
+                                        className={classNames(
+                                            'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
+                                        )}>
+                                        <Image alt="test" width="300" height="200" src={img4} />
+
+                                    </div>
+                                </div>
                             </div>
-                            <div><p> .</p></div>
 
-                            <div className="images-container">
-                                <Image alt="test" width="200" height="200" src={img3} />
-                                <Image alt="test" width="200" height="200" src={img2} />
-                                <Image alt="test" width="200" height="200" src={img1} />
-                            </div>
-                            <div><p> .</p></div>
-                            <div className="images-container">
 
-                                <Image alt="test" width="300" height="200" src={img4} />
 
-                            </div>
 
                         </div>
+
 
                     </div>
 

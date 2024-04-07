@@ -6,6 +6,7 @@ import {
     MapIcon,
 } from '@heroicons/react/24/outline';
 import classNames from 'classnames';
+import Link from 'next/link';
 import React from 'react';
 
 import Section from '../components/Layout/Section';
@@ -15,6 +16,17 @@ const NouvellePage = () => {
     const { profileImageSrc } = aboutData;
     return (
         <div>
+            <header className="fixed top-0 z-50 w-full bg-neutral-900/50 p-4 backdrop-blur">
+                <nav className="flex justify-start">
+                    {/* Mettez à jour le chemin vers votre page Portfolio si nécessaire */}
+                    <Link
+                        href="/#portfolio"
+                        className="-m-1.5 p-1.5 rounded-md font-bold uppercase hover:transition-colors hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 sm:hover:text-orange-500 text-neutral-100"
+                    >
+                        Return
+                    </Link>
+                </nav>
+            </header>
 
             <Section className="bg-neutral-800" sectionId='about'>
                 <div className="flex flex-col items-center gap-y-6 rounded-xl p-6 text-center shadow-lg backdrop-blur-sm">

@@ -16,7 +16,6 @@ import porfolioImage10 from '../images/hand.jpg';
 import heroImage from '../images/header-background.webp';
 import porfolioImage2 from '../images/LLM.jpg';
 import porfolioImage7 from '../images/orange2D.jpg';
-import porfolioImage8 from '../images/osci.jpg';
 import profilepic from '../images/profilepic.jpg';
 import porfolioImage1 from '../images/robot.jpg';
 import porfolioImage6 from '../images/robotTPE.jpg';
@@ -194,6 +193,13 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'Robotic hand project',
+    description: 'Developing a robotic hand capable of manipulation within a 250CHF budget, leveraging skills in design, fabrication, learning, control, and testing.',
+    url: './projectHand',
+    image: porfolioImage10,
+    date: '> 09/2023 - 01/2024',
+  },
+  {
     title: 'Learning Recovery Maneuvers for Robot ANYmal',
     description: 'Train a reinforcement learning model to learn recovery maneuvers and reduce the damages when falling.',
     url: './projectRL1',
@@ -208,12 +214,13 @@ export const portfolioItems: PortfolioItem[] = [
     date: '> 2019/2020',
   },
   {
-    title: 'Robotic hand project',
-    description: 'Developing a robotic hand capable of manipulation within a 250CHF budget, leveraging skills in design, fabrication, learning, control, and testing.',
-    url: './projectHand',
-    image: porfolioImage10,
-    date: '> 09/2023 - 01/2024',
+    title: 'Computer vision project and deep learning project',
+    description: 'Crafting a CNN model for image recognition, segmentation, and object tracking, and various deep learning models for music genre classification, graph neural networks, or natural language processing.',
+    url: './projectCV',
+    image: porfolioImage9,
+    date: '> 09/2023 - 06/2024',
   },
+
   {
     title: 'Spatial reasoning from LLM for global navigation ',
     description: 'To improve robot’s navigation and to make it more versatile in various different environment, we are testing the spatial reasoning capabilities of large language models.',
@@ -228,13 +235,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage3,
     date: '> 20,21,22/03/2024',
   },
-  {
-    title: 'Oscillator design',
-    description: 'Designing a 2-degree freedom oscillator for watches, resistant to linear and angular accelerations, using CATIA software',
-    url: './projectHorl',
-    image: porfolioImage8,
-    date: '> 01/2022 - 06/2022',
-  },
+
   {
     title: 'Mechanical design project',
     description: 'Brainstorming and designing with CATIA a orange press like commercial juicers.',
@@ -243,13 +244,7 @@ export const portfolioItems: PortfolioItem[] = [
     date: '> 01/2022 - 06/2022',
   },
 
-  {
-    title: 'Computer vision project and deep learning project',
-    description: 'Crafting a CNN model for image recognition, segmentation, and object tracking, and various deep learning models for music genre classification, graph neural networks, or natural language processing.',
-    url: './projectCV',
-    image: porfolioImage9,
-    date: '> 09/2023 - 06/2024',
-  },
+
 ];
 
 /**
@@ -261,14 +256,14 @@ export const education: TimelineItem[] = [
     location: 'Zurich, Switzerland',
     title: 'ETHZ ',
     after: 'Master of Science in Robotics, Systems and Control',
-    content: <p></p>,
+    content: <p>In parallele : - Part time job at <a href="https://ibe-edu.ch/de/" style={{ color: 'blue', textDecoration: 'none' }}>IBE</a> ,  - <a href="https://www.talentkick.ch" style={{ color: 'blue', textDecoration: 'none' }}>Talent Kick Program</a> (incubator),  - Hackatons</p>,
   },
   {
     date: '2022-2023, 1 year',
     location: 'Tokyo, Japan',
     title: 'TokyoTech ',
     after: 'Exchange year',
-    content: <p></p>,
+    content: <p>Association : Judo Club, CREATE Club</p>,
   },
   {
     date: '2020-2023, 3 years',
@@ -281,16 +276,28 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: '04/2024 - now',
+    location: 'Zurich, Switzerland',
+    title: 'IBE',
+    after: 'Part Time Job, 40%',
+    content: (
+      <p>
+        In this part-time job at 40%, my goal was to leverage AI to enhance the potential of the company <a href="https://ibe-edu.ch/de/" style={{ color: 'blue', textDecoration: 'none' }}>IBE</a>. I had to use the power of LLM and other techniques to generate questions for the professors based on given data.
+      </p>
+    ),
+  },
+  {
     date: '05/2023 - 08/2023, 4 months',
     location: 'Lausanne, Switzerland',
     title: 'Swiss Army ',
     after: 'Internship at the Space Domain',
     content: (
       <p>
-        Throughout my internship under the guidance of Gabriel Laupre, I worked as a consultant for the company Solenix, focusing on projects within the Space Domain for the Swiss Army. My main role involved calculating satellite deltaV and consumed fuel using historical data. I applied various techniques, including signal processing and machine learning, utilizing both Python and Java for the computations and the development. (<a href="https://space-campus.ch/" target="_blank" rel="noopener noreferrer">https://space-campus.ch/</a>) (<a href="https://www.solenix.ch/" target="_blank" rel="noopener noreferrer">https://www.solenix.ch/</a>)
+        Throughout my internship under the guidance of Gabriel Laupre, I worked as a consultant for the company  <strong>Solenix</strong>, focusing on projects within the Space Domain for the  <strong>Swiss Army</strong>. My main role involved <strong>calculating satellite deltaV</strong> and consumed fuel using historical data. I applied various techniques, including  <strong>signal processing</strong> and  <strong>machine learning</strong>, utilizing both  <strong>Python</strong> and  <strong>Java</strong> for the computations and the development. (<a href="https://space-campus.ch/" target="_blank" style={{ color: 'blue', textDecoration: 'none' }} rel="noopener noreferrer">https://space-campus.ch/</a>) (<a href="https://www.solenix.ch/" target="_blank" style={{ color: 'blue', textDecoration: 'none' }} rel="noopener noreferrer">https://www.solenix.ch/</a>)
       </p>
     ),
   },
+
   {
     date: ' 07/2022 - 08/2022',
     location: 'Lausanne, Switzerland',
@@ -298,7 +305,7 @@ export const experience: TimelineItem[] = [
     after: 'Internship of manufacturing',
     content: (
       <p>
-        During this manufacturing internship, I learned the entire process of drilling, milling, turning, brazing and sawing. These skills were learned by making many different object parts using different machines.
+        During this manufacturing internship, I learned the entire process of <strong>drilling, milling, turning, brazing and sawing</strong>. These skills were learned by making many different object parts using different machines.
       </p>
     ),
   },
