@@ -196,26 +196,18 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'AI for Education project',
-    description: 'As part of the TalentKick incubator (https://www.talentkick.ch/), I built a team to develop an AI-powered education project that won the CHF 5,000 incubator prize. Our solution leverages AI to help students prepare for exams and enhances educational experiences.',
-    url: './projectEdu',
-    image: porfolioImageEdu,
-    date: '> 01/2024 - now',
-  },
-  {
     title: 'Anti-Poaching Technology Development',
     description: 'During my intersnhip at Dinokend Game Reserve, I developed computer vision models for an autonomous patrol car. I created models to detect humans, animals and obstacles in video, raising alerts for unwanted presence and adjusting the path ff the car if there were obstcales.',
     url: './projectSpot',
     image: porfolioImageSpot,
     date: '> 09/2024 - 12/2024',
   },
-
   {
-    title: 'Spatial reasoning from LLM for global navigation ',
-    description: 'To improve robot’s navigation and to make it more versatile in various different environment, we are testing the spatial reasoning capabilities of large language models.',
-    url: './projectLLM',
-    image: porfolioImage2,
-    date: '> 02/2024 - 07/2024',
+    title: 'AI for Education project',
+    description: 'As part of the TalentKick incubator (https://www.talentkick.ch/), I built a team to develop an AI-powered education project that won the CHF 5,000 incubator prize. Our solution leverages AI to help students prepare for exams and enhances educational experiences.',
+    url: './projectEdu',
+    image: porfolioImageEdu,
+    date: '> 01/2024 - now',
   },
   {
     title: 'Robotic hand project',
@@ -224,6 +216,14 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage10,
     date: '> 09/2023 - 01/2024',
   },
+  {
+    title: 'Spatial reasoning from LLM for global navigation ',
+    description: 'To improve robot’s navigation and to make it more versatile in various different environment, we are testing the spatial reasoning capabilities of large language models.',
+    url: './projectLLM',
+    image: porfolioImage2,
+    date: '> 02/2024 - 07/2024',
+  },
+
   {
     title: 'Sorting arm Robot',
     description: 'Programming, 3D design and built a sorting arm robot with Arduino that sort 3 different size of cube.',
@@ -240,19 +240,18 @@ export const portfolioItems: PortfolioItem[] = [
   },
 
   {
-    title: 'Learning Recovery Maneuvers for Robot ANYmal',
-    description: 'Train a reinforcement learning model to learn recovery maneuvers and reduce the damages when falling.',
-    url: './projectRL1',
-    image: porfolioImage1,
-    date: '> 02/2024 - 07/2024',
-  },
-
-  {
     title: 'Computer vision project and deep learning project',
     description: 'Crafting a CNN model for image recognition, segmentation, and object tracking, and various deep learning models for music genre classification, graph neural networks, or natural language processing.',
     url: './projectCV',
     image: porfolioImage9,
     date: '> 09/2023 - 06/2024',
+  },
+  {
+    title: 'Learning Recovery Maneuvers for Robot ANYmal',
+    description: 'Train a reinforcement learning model to learn recovery maneuvers and reduce the damages when falling.',
+    url: './projectRL1',
+    image: porfolioImage1,
+    date: '> 02/2024 - 07/2024',
   },
   {
     title: 'Start Hack, saint gallen',
