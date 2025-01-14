@@ -12,14 +12,17 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import porfolioImage3 from '../images/chatBot.jpg';
+import porfolioImageEdu from '../images/eduvision.jpg';
 import porfolioImage10 from '../images/hand.jpg';
 import heroImage from '../images/header-background.webp';
+import porfolioImageInfo from '../images/info2.jpg';
 import porfolioImage2 from '../images/LLM.jpg';
 import porfolioImage7 from '../images/orange2D.jpg';
 import profilepic from '../images/profilepic.jpg';
 import porfolioImage1 from '../images/robot.jpg';
 import porfolioImage6 from '../images/robotTPE.jpg';
 import porfolioImage9 from '../images/segment.jpg';
+import porfolioImageSpot from '../images/spots.jpg';
 import {
   About,
   ContactSection,
@@ -193,6 +196,28 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'AI for Education project',
+    description: 'As part of the TalentKick incubator (https://www.talentkick.ch/), I built a team to develop an AI-powered education project that won the CHF 5,000 incubator prize. Our solution leverages AI to help students prepare for exams and enhances educational experiences.',
+    url: './projectEdu',
+    image: porfolioImageEdu,
+    date: '> 01/2024 - now',
+  },
+  {
+    title: 'Anti-Poaching Technology Development',
+    description: 'During my intersnhip at Dinokend Game Reserve, I developed computer vision models for an autonomous patrol car. I created models to detect humans, animals and obstacles in video, raising alerts for unwanted presence and adjusting the path ff the car if there were obstcales.',
+    url: './projectSpot',
+    image: porfolioImageSpot,
+    date: '> 09/2024 - 12/2024',
+  },
+
+  {
+    title: 'NLP and RAG Modeling at Infosys ',
+    description: 'During my intership at Infosys, I developed a model to classify and transform multimodal data (emails, PDFs, images, graphs) into structured data for a Retrieval-Augmented Generation (RAG) model, enhancing data processing and retrieval.',
+    url: './projectInfosys',
+    image: porfolioImageInfo,
+    date: '> 06/2024 - 08/2024',
+  },
+  {
     title: 'Robotic hand project',
     description: 'Developing a robotic hand capable of manipulation within a 250CHF budget, leveraging skills in design, fabrication, learning, control, and testing.',
     url: './projectHand',
@@ -200,11 +225,18 @@ export const portfolioItems: PortfolioItem[] = [
     date: '> 09/2023 - 01/2024',
   },
   {
+    title: 'Spatial reasoning from LLM for global navigation ',
+    description: 'To improve robot’s navigation and to make it more versatile in various different environment, we are testing the spatial reasoning capabilities of large language models.',
+    url: './projectLLM',
+    image: porfolioImage2,
+    date: '> 02/2024 - 07/2024',
+  },
+  {
     title: 'Learning Recovery Maneuvers for Robot ANYmal',
     description: 'Train a reinforcement learning model to learn recovery maneuvers and reduce the damages when falling.',
     url: './projectRL1',
     image: porfolioImage1,
-    date: '> 02/2024 - now (07/2024)',
+    date: '> 02/2024 - 07/2024',
   },
   {
     title: 'Sorting arm Robot',
@@ -227,13 +259,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage3,
     date: '> 20,21,22/03/2024',
   },
-  {
-    title: 'Spatial reasoning from LLM for global navigation ',
-    description: 'To improve robot’s navigation and to make it more versatile in various different environment, we are testing the spatial reasoning capabilities of large language models.',
-    url: './projectLLM',
-    image: porfolioImage2,
-    date: '> 02/2024 - now (07/2024)',
-  },
+
 
 
   {
@@ -286,6 +312,29 @@ export const experience: TimelineItem[] = [
       </p>
     ),
   },
+  {
+    date: '09/2024 - 12/2024',
+    location: 'Dinokeng Game Reserve, South Africa',
+    title: 'SPOTS',
+    after: 'Internship',
+    content: (
+      <p>
+        During my internship, I designed and implemented computer vision models for an <strong>autonomous patrol car</strong>. These models detected humans, animals, and obstacles in video feeds. I integrated <strong>obstacles into the Model Predictive Control (MPC) system</strong> for real-time path updates, ensuring optimal navigation and enhanced patrol safety.
+      </p>
+    ),
+  },
+  {
+    date: '06/2024 - 08/2024',
+    location: 'Bengaluru, India',
+    title: 'Infosys',
+    after: 'Internship',
+    content: (
+      <p>
+        Developed a model to process and classify <strong>multimodal data inputs</strong>, including emails, PDFs, images, and graphs. Using the <strong>DeepDetection library</strong>, I transformed data into structured formats optimized for <strong>Retrieval-Augmented Generation (RAG) systems</strong>, ensuring seamless data compatibility and enhanced processing efficiency.
+      </p>
+    ),
+  },
+
   {
     date: '05/2023 - 08/2023, 4 months',
     location: 'Lausanne, Switzerland',
