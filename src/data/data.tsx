@@ -211,11 +211,11 @@ export const portfolioItems: PortfolioItem[] = [
   },
 
   {
-    title: 'NLP and RAG Modeling at Infosys ',
-    description: 'During my intership at Infosys, I developed a model to classify and transform multimodal data (emails, PDFs, images, graphs) into structured data for a Retrieval-Augmented Generation (RAG) model, enhancing data processing and retrieval.',
-    url: './projectInfosys',
-    image: porfolioImageInfo,
-    date: '> 06/2024 - 08/2024',
+    title: 'Spatial reasoning from LLM for global navigation ',
+    description: 'To improve robot’s navigation and to make it more versatile in various different environment, we are testing the spatial reasoning capabilities of large language models.',
+    url: './projectLLM',
+    image: porfolioImage2,
+    date: '> 02/2024 - 07/2024',
   },
   {
     title: 'Robotic hand project',
@@ -225,12 +225,20 @@ export const portfolioItems: PortfolioItem[] = [
     date: '> 09/2023 - 01/2024',
   },
   {
-    title: 'Spatial reasoning from LLM for global navigation ',
-    description: 'To improve robot’s navigation and to make it more versatile in various different environment, we are testing the spatial reasoning capabilities of large language models.',
-    url: './projectLLM',
-    image: porfolioImage2,
-    date: '> 02/2024 - 07/2024',
+    title: 'Sorting arm Robot',
+    description: 'Programming, 3D design and built a sorting arm robot with Arduino that sort 3 different size of cube.',
+    url: './projectTPE',
+    image: porfolioImage6,
+    date: '> 2019/2020',
   },
+  {
+    title: 'NLP and RAG Modeling at Infosys ',
+    description: 'During my intership at Infosys, I developed a model to classify and transform multimodal data (emails, PDFs, images, graphs) into structured data for a Retrieval-Augmented Generation (RAG) model, enhancing data processing and retrieval.',
+    url: './projectInfosys',
+    image: porfolioImageInfo,
+    date: '> 06/2024 - 08/2024',
+  },
+
   {
     title: 'Learning Recovery Maneuvers for Robot ANYmal',
     description: 'Train a reinforcement learning model to learn recovery maneuvers and reduce the damages when falling.',
@@ -238,13 +246,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
     date: '> 02/2024 - 07/2024',
   },
-  {
-    title: 'Sorting arm Robot',
-    description: 'Programming, 3D design and built a sorting arm robot with Arduino that sort 3 different size of cube.',
-    url: './projectTPE',
-    image: porfolioImage6,
-    date: '> 2019/2020',
-  },
+
   {
     title: 'Computer vision project and deep learning project',
     description: 'Crafting a CNN model for image recognition, segmentation, and object tracking, and various deep learning models for music genre classification, graph neural networks, or natural language processing.',
