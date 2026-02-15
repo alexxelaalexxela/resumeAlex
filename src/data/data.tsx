@@ -98,11 +98,11 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: ``,
   aboutItems: [
-    { label: 'Location', text: 'Zurich, Switzerland', Icon: MapIcon },
-    { label: 'Age', text: '22', Icon: CalendarIcon },
+    { label: 'Location', text: 'Boston, US', Icon: MapIcon },
+    { label: 'Age', text: '24', Icon: CalendarIcon },
     { label: 'Nationality', text: 'French', Icon: FlagIcon },
     { label: 'Interests', text: 'Robotic, AI, Innovations', Icon: SparklesIcon },
-    { label: 'Study', text: 'ETHZ Zurich', Icon: AcademicCapIcon },
+    { label: 'Study', text: 'ETHZ Zurich / MIT ', Icon: AcademicCapIcon },
     { label: 'Employment', text: 'Student', Icon: BuildingOffice2Icon },
   ],
 };
