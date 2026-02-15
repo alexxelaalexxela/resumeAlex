@@ -303,7 +303,18 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: '04/2024 - now',
+    date: '01/2024 - 10/2025',
+    location: 'Zurich, Switzerland',
+    title: 'TalentKick Incubator',
+    after: 'AI for Education',
+    content: (
+      <p>
+        As part of the <a href="https://www.talentkick.ch/" style={{ color: 'blue', textDecoration: 'none' }}>TalentKick incubator</a>, I built a team to develop an AI-powered education project that won the CHF 5,000 incubator prize. Our solution leverages AI to help students prepare for exams and enhances educational experiences.
+      </p>
+    ),
+  },
+  {
+    date: '04/2024 - 07/2025',
     location: 'Zurich, Switzerland',
     title: 'IBE',
     after: 'Part Time Job, 40%',
@@ -377,6 +388,11 @@ export const contact: ContactSection = {
       type: ContactType.LinkedIn,
       text: '@alexandre-clin-deffarges',
       href: 'https://www.linkedin.com/in/alexandre-clin-deffarges-387748227',
+    },
+    {
+      type: ContactType.Email,
+      text: 'alexclin@mit.edu',
+      href: 'mailto:alexclin@mit.edu',
     },
     {
       type: ContactType.Email,
