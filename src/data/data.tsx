@@ -196,6 +196,13 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: '3D Tennis Player Reconstruction - MIT 100K Finalist | Computer Vision, 3D',
+    description: 'Selected as a finalist in the prestigious MIT 100K competition for developing a 3D reconstruction system for tennis players using 1-3 iPhones. This allows athletes to visualize matches from multiple angles, analyze mechanics, and enhance performance.',
+    url: './projectMIT100K',
+    image: '/images/mit100k-1.png',
+    date: '> Cambridge, US, 10/2025 - Now, On site',
+  },
+  {
     title: 'Anti-Poaching Technology Development',
     description: 'During my intersnhip at Dinokend Game Reserve, I developed computer vision models for an autonomous patrol car. I created models to detect humans, animals and obstacles in video, raising alerts for unwanted presence and adjusting the path ff the car if there were obstcales.',
     url: './projectSpot',
@@ -278,6 +285,13 @@ export const portfolioItems: PortfolioItem[] = [
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
 export const education: TimelineItem[] = [
+  {
+    date: '2025-2026, 6 months',
+    location: 'Boston, USA',
+    title: 'MIT ',
+    after: 'Graduate Researcher, AI in education',
+    content: <p>In parallele : - MIT 100K Finalist</p>,
+  },
   {
     date: '2023-2025, 2 years',
     location: 'Zurich, Switzerland',
