@@ -205,7 +205,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'AI Image Generation Platforms - Neoma | Generative AI, Full-Stack, Marketing',
     description: 'Developed neoma-ai.fr and neoma-poster.com end-to-end, integrating fine-tuned generative AI for custom designs. Managed full-stack architecture and drove user acquisition via targeted Instagram ads and Instagram community growth.',
-    url: 'https://neoma-ai.fr',
+    url: './projectNeoma',
     image: '/images/neoma-platform.png',
     date: '> 06/2025 - now, Remote',
   },
