@@ -209,19 +209,20 @@ export const portfolioItems: PortfolioItem[] = [
     image: '/images/neoma-platform.png',
     date: '> 06/2025 - now, Remote',
   },
-  {
-    title: 'Anti-Poaching Technology Development',
-    description: 'During my intersnhip at Dinokend Game Reserve, I developed computer vision models for an autonomous patrol car. I created models to detect humans, animals and obstacles in video, raising alerts for unwanted presence and adjusting the path ff the car if there were obstcales.',
-    url: './projectSpot',
-    image: porfolioImageSpot,
-    date: '> 09/2024 - 12/2024',
-  },
+  
   {
     title: 'AI for Education project',
     description: 'As part of the TalentKick incubator (https://www.talentkick.ch/), I built a team to develop an AI-powered education project that won the CHF 5,000 incubator prize. Our solution leverages AI to help students prepare for exams and enhances educational experiences.',
     url: './projectEdu',
     image: porfolioImageEdu,
     date: '> 01/2024 - now',
+  },
+  {
+    title: 'Anti-Poaching Technology Development',
+    description: 'During my intersnhip at Dinokend Game Reserve, I developed computer vision models for an autonomous patrol car. I created models to detect humans, animals and obstacles in video, raising alerts for unwanted presence and adjusting the path ff the car if there were obstcales.',
+    url: './projectSpot',
+    image: porfolioImageSpot,
+    date: '> 09/2024 - 12/2024',
   },
   {
     title: 'Robotic hand project',
