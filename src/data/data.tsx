@@ -203,6 +203,13 @@ export const portfolioItems: PortfolioItem[] = [
     date: '> Cambridge, US, 10/2025 - Now, On site',
   },
   {
+    title: 'AI Image Generation Platforms - Neoma | Generative AI, Full-Stack, Marketing',
+    description: 'Developed neoma-ai.fr and neoma-poster.com end-to-end, integrating fine-tuned generative AI for custom designs. Managed full-stack architecture and drove user acquisition via targeted Instagram ads and Instagram community growth.',
+    url: 'https://neoma-ai.fr',
+    image: '/images/neoma-platform.png',
+    date: '> 06/2025 - now, Remote',
+  },
+  {
     title: 'Anti-Poaching Technology Development',
     description: 'During my intersnhip at Dinokend Game Reserve, I developed computer vision models for an autonomous patrol car. I created models to detect humans, animals and obstacles in video, raising alerts for unwanted presence and adjusting the path ff the car if there were obstcales.',
     url: './projectSpot',
